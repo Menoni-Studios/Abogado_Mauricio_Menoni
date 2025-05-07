@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contáctame</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* Reset and base styles */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      background-color: #0B0C3F;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 900px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      background-color: white;
+    }
+
+    .button {
+      margin-top: 30px;
+      background-color: burlywood;
+      color: black;
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: bold;  
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: bisque;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      iframe {
+        height: 700px;
+      }
+
+      .button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="./contact.png" alt="Header" class="form-header" style="width:800px; border-radius: 8px; margin-bottom: 20px;">
+  
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSctJDK_OtaZJdoySY6mur98yDY-7MeH_coR_HGeZV1WlQC05Q/viewform?embedded=true">
+      Cargando…
+    </iframe>
+
+    <a href="../index.html" class="button" style="font-family: Time New Roman;">INICIO</a>
+  </div>
+
+</body>
+</html>
+
